@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>b1922a08-67fc-4627-8763-a30a2531c213</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore" Version="3.1.2" />
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="3.1.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="newtonsoft.json" Version="12.0.3" />
+    <PackageReference Include="npgsql.entityframeworkcore.postgresql" Version="3.1.2" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\config" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\HEAD" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\description" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\index" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\COMMIT_EDITMSG" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\info\exclude" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\logs\HEAD" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\logs\refs\heads\master" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\commit-msg.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\pre-rebase.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\pre-commit.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\applypatch-msg.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\pre-receive.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\post-update.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\pre-applypatch.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\pre-push.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\hooks\update.sample" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\32\8a3029a723180950cb6fafed208542cacd6dec" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\33\c36c02be0f4d66aa15bf2765c354eff657db22" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\05\03c33d0fd20d747699be17265d7ff108d74d2a" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\b5\01fb6a2999971a400dc1c41266c99b6846a4a7" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\d9\d9a9bff6fd6f3ee7ea00de958f135a4a28c6e6" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\be\9af2cbbf23bfd5823ee46178cb43dea8a4b4e4" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\da\7fc69c16f033fba695884d39fbac10d1f26dd3" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\a2\97f02775bfb065237ce9b9e114362cba49922f" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\a5\278b1651db9d747349df460a249678deef0d79" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\cf\ddf637010490ad753a80514354e6a0d22fc81f" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\c6\95bdd5965b0b687fdee8984d5d36e1a33fb642" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\89\83e0fc1c5e2795ccfde0c771c6d66c88ef4a42" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\7b\5d11cac0879ff9ac6f63ca0168d4067db05bab" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\2f\efeb249f5238cbc925100886e8da165acd8284" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\6b\c2cd73ef19464cf9a3795060e5938aa9edbf22" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\6b\e1e9494f6b7dd8212d85f9df4e965e98dd9eda" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\36\9eabb1257691e5d6d141a786cc48e975aa21c0" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\5e\65b4737235810cc21f7ec64c58755d2a192a25" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\6d\749daca3b7e9a23f142572dbd51be3348be9ff" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\97\d7e5571e6ffdb2359589d8d0dd5d38b00db315" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\90\7d2e750dc3d978a5ef12ac22ddad98ec94d06f" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\de\974c983466f1b8205e74e116b3f67486a7b370" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\e1\59f7487c460e85d4a57d05bedbcd6676aa97df" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\cc\423ac078bc13c0795e55c3ade291e12cb6ba86" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\1b\582d36881e33e3d8980d3c83eb43eee78d3bb7" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\77\3a2d7a9dda77a368a22c120f6aaece9c8c24b6" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\23\d7cec59bba41c1b3b8fa2e5bb96ca1350f95d8" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\49\f1e541dd8c2f4a466d3268f87423c440b8fd1d" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\objects\7a\2c845358f27cb6e20aad8fe420c211c9a54060" />
+    <None Include="Properties\bin\Release\netcoreapp3.1\publish\.git\refs\heads\master" />
+  </ItemGroup>
+</Project>

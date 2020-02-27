@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{C742CB55-ECF8-463F-9C43-81FD6D85F07E}|Default">
+  <MonoDevelop.Ide.ItemProperties.RefactoryExam1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RefactoryExam1/Properties/bin/Release/netcoreapp3.1/publish/Dockerfile">
+    <Files>
+      <File FileName="RefactoryExam1/Startup.cs" Line="25" Column="88" />
+      <File FileName="RefactoryExam1/Properties/bin/Release/netcoreapp3.1/publish/Dockerfile" Line="5" Column="60" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RefactoryExam1" expanded="True">
+            <Node name="RefactoryExam1" expanded="True">
+              <Node name="Properties" expanded="True">
+                <Node name="bin" expanded="True">
+                  <Node name="Release" expanded="True">
+                    <Node name="netcoreapp3.1" expanded="True">
+                      <Node name="publish" expanded="True">
+                        <Node name="Dockerfile" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

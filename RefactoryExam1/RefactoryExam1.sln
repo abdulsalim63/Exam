@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoryExam1", "RefactoryExam1\RefactoryExam1.csproj", "{BC08E635-3B16-4A61-B3E6-E2AED1F9CB9E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C742CB55-ECF8-463F-9C43-81FD6D85F07E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC08E635-3B16-4A61-B3E6-E2AED1F9CB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC08E635-3B16-4A61-B3E6-E2AED1F9CB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC08E635-3B16-4A61-B3E6-E2AED1F9CB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC08E635-3B16-4A61-B3E6-E2AED1F9CB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C742CB55-ECF8-463F-9C43-81FD6D85F07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C742CB55-ECF8-463F-9C43-81FD6D85F07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C742CB55-ECF8-463F-9C43-81FD6D85F07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C742CB55-ECF8-463F-9C43-81FD6D85F07E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
